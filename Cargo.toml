@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+askama = "0.12.1"
+axum = "0.7.5"
+tower = "0.4.13"
+tower-http = { version = "0.5.2", features = ["fs"] }
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+tokio = { version = "1.37", features = ["fs", "macros", "rt-multi-thread"] }
+anyhow = "1.0.86"
